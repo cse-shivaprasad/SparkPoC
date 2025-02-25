@@ -4,14 +4,12 @@
         <groupId>org.apache.spark</groupId>
         <artifactId>spark-core_2.12</artifactId>
         <version>3.3.0</version>
-        <scope>provided</scope>
     </dependency>
 
     <dependency>
         <groupId>org.apache.spark</groupId>
         <artifactId>spark-sql_2.12</artifactId>
         <version>3.3.0</version>
-        <scope>provided</scope>
     </dependency>
 
     <!-- Hadoop for Parquet support -->
@@ -27,7 +25,7 @@
         <version>3.3.1</version>
     </dependency>
 
-    <!-- Logging -->
+    <!-- Logging dependencies -->
     <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
@@ -38,5 +36,12 @@
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-log4j12</artifactId>
         <version>1.7.36</version>
+    </dependency>
+
+    <!-- Jackson for JSON processing -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.15.0</version>
     </dependency>
 </dependencies>
